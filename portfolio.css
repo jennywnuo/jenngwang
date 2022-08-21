@@ -85,9 +85,6 @@ a:focus {
 }
 
 .tag {
-}
-
-.tag {
   opacity: 0;
   transform: translate(0, 10vh);
   transition: all 2s;
@@ -286,6 +283,17 @@ a.article:hover {
   .picofme {
     height: 300px;
     width: auto;
+  }
+
+  .tag {
+    opacity: 1;
+    transform: none;
+    transition: translate(0, 0);
+  }
+
+  .tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
   }
 }
 

@@ -270,6 +270,10 @@ a.article:hover {
     right: 0px;
   }
 
+  .bullet {
+    height: 1px;
+  }
+
   a.download {
     color: #5e5e5e;
     display: none;
